@@ -1,5 +1,15 @@
 @import './base.css';
 
+.block__dark {
+  color: rgba(235, 235, 235, 0.64);
+  background: #191919;
+}
+
+.block__light {
+  color: rgba(60, 60, 60, 0.66);
+  background: #ffffff;
+}
+
 #app {
   /*max-width: 1280px;*/
   margin: 0 auto;

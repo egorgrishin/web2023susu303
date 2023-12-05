@@ -56,8 +56,6 @@ const changeTheme = () => {
   margin: 0 auto;
   padding: 2rem;
   min-height: 100vh;
-  color: var(--color-text);
-  background: var(--color-background);
   transition:
       color 0.5s,
       background-color 0.5s;
@@ -80,16 +78,6 @@ const changeTheme = () => {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.block__dark {
-  color: rgba(235, 235, 235, 0.64);
-  background: #191919;
-}
-
-.block__light {
-  color: rgba(60, 60, 60, 0.66);
-  background: #ffffff;
 }
 
 header {

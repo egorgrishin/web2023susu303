@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf499a99-7b06-4720-a283-3b9e3ec21153" name="Changes" comment="task2 gitignore">
-      <change afterPath="$PROJECT_DIR$/ajax/src/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/src/assets/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/src/components/icons/IconTodo.vue" afterDir="false" />
+    <list default="true" id="cf499a99-7b06-4720-a283-3b9e3ec21153" name="Changes" comment="ajax">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/src/components/AppPopup.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/components/AppPopup.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +174,7 @@
       <workItem from="1701613052844" duration="2893000" />
       <workItem from="1701615954806" duration="6935000" />
       <workItem from="1701675817458" duration="8542000" />
-      <workItem from="1701742420950" duration="719000" />
+      <workItem from="1701742420950" duration="1409000" />
     </task>
     <task id="LOCAL-00001" summary="add README.md">
       <option name="closed" value="true" />
@@ -238,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701743133397</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ajax">
+      <option name="closed" value="true" />
+      <created>1701743359388</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701743359388</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +286,8 @@
     <MESSAGE value="task3" />
     <MESSAGE value="ajax gitignore" />
     <MESSAGE value="task2 gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="task2 gitignore" />
+    <MESSAGE value="ajax" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajax" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
