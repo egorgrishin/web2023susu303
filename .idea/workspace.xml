@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf499a99-7b06-4720-a283-3b9e3ec21153" name="Changes" comment="ajax">
+      <change afterPath="$PROJECT_DIR$/films/src/Create/Create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/films/src/Create/Create.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/films/src/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/films/src/Header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/films/src/Info/Info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/films/src/Info/Info.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/films/src/List/List.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/films/src/ListItem/ListItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/films/src/ListItem/ListItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/films/src/Main/Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/films/src/NotSelected/NotSelected.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/films/src/NotSelected/NotSelected.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/films/src/Update/Update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/films/src/Update/Update.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/assets/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/src/components/AppPopup.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/components/AppPopup.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,13 +31,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Composition API Component" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="task3" />
+        <entry key="$PROJECT_DIR$" value="ajax" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,14 +57,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "ajax",
-    "last_opened_file_path": "/Users/egor/WebstormProjects/web2023susu303/task2",
+    "git-widget-placeholder": "react",
+    "last_opened_file_path": "/Users/egor/WebstormProjects/web2023susu303/films/src/Create",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs.mocha.mocha_node_package_dir": "/Users/egor/WebstormProjects/web2023susu303/task3/node_modules/mocha",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.TypeScript",
     "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   },
@@ -63,10 +78,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/films/src/Create" />
+      <recent name="$PROJECT_DIR$/films/src/ListItem" />
       <recent name="$PROJECT_DIR$/task2" />
       <recent name="$PROJECT_DIR$/ajax/src/assets" />
       <recent name="$PROJECT_DIR$/ajax/src/components" />
-      <recent name="$PROJECT_DIR$/task3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/films/src/Main" />
+      <recent name="$PROJECT_DIR$/films/src/List" />
+      <recent name="$PROJECT_DIR$/films/src/Header" />
+      <recent name="$PROJECT_DIR$/films/src/App" />
     </key>
   </component>
   <component name="RunManager" selected="Mocha.ООП">
@@ -174,7 +196,10 @@
       <workItem from="1701613052844" duration="2893000" />
       <workItem from="1701615954806" duration="6935000" />
       <workItem from="1701675817458" duration="8542000" />
-      <workItem from="1701742420950" duration="1409000" />
+      <workItem from="1701742420950" duration="2686000" />
+      <workItem from="1701801114956" duration="7319000" />
+      <workItem from="1701893996450" duration="10594000" />
+      <workItem from="1702084696412" duration="4550000" />
     </task>
     <task id="LOCAL-00001" summary="add README.md">
       <option name="closed" value="true" />
@@ -248,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701743359388</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ajax">
+      <option name="closed" value="true" />
+      <created>1701743901763</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701743901763</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +298,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="task3" />
+                        <option value="react" />
                       </list>
                     </value>
                   </entry>
