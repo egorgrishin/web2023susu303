@@ -18,8 +18,14 @@ function Main() {
   }
   useEffect(getFilms, []);
 
-  const clickUpdateHandler = () => setIsUpdate(true);
-  const clickCreateHandler = () => setIsCreate(true);
+  const clickUpdateHandler = () => {
+    setIsCreate(false);
+    setIsUpdate(true);
+  }
+  const clickCreateHandler = () => {
+    setIsUpdate(false);
+    setIsCreate(true);
+  }
   const cancelUpdating = () => setIsUpdate(false);
   const cancelCreating = () => setIsCreate(false);
   const filmUpdated = (updatedFilm) => {
